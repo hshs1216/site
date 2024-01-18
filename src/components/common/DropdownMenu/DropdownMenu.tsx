@@ -23,9 +23,9 @@ export const DropdownMenu = React.forwardRef<
 >(({ children, trigger, ...props }, forwardedRef) => {
   const [open, setOpen] = useState(false);
 
-  const contentStyle = {
-    filter: 'blur(4px)', // 4pxのブラー効果を適用
-  };
+  // const contentStyle = {
+  //   filter: 'blur(4px)', // 4pxのブラー効果を適用
+  // };
 
   return (
     <DropdownMenuPrimitive.Root onOpenChange={(open) => setOpen(open)}>
@@ -41,7 +41,7 @@ export const DropdownMenu = React.forwardRef<
                 collisionPadding={16}
                 ref={forwardedRef}
                 forceMount
-                style={contentStyle} 
+                // style={contentStyle} 
               >
                 {children}
               </DropdownMenuPrimitive.Content>
