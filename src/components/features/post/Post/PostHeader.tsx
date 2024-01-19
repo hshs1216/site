@@ -1,3 +1,7 @@
+/*
+   記事中でのヘッダー表示
+ */
+
 import { AiTwotoneTags } from 'react-icons/ai';
 import { Date } from '@/components/common/Date';
 import { Image } from '@/components/common/Image';
