@@ -1,6 +1,6 @@
 # blog
 
-[https://hshs1216.github.io/site/](https://hshs1216.com/)
+https://hshs1216.com/
 
 ## 投稿
 
