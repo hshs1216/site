@@ -11,9 +11,9 @@ export const sns = [
     icon: <SiGithub size={20} />,
     label: 'Github',
   },
-  // {
-  //   href: 'https://twitter.com/',
-  //   icon: <SiTwitter size={20} />,
-  //   label: 'Twitter',
-  // },
+  {
+    href: 'https://twitter.com/hshs8hashi',
+    icon: <SiTwitter size={20} />,
+    label: 'Twitter',
+  },
 ];

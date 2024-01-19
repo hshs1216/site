@@ -12,7 +12,7 @@ export const Header = () => {
     <ContentLayout className="sticky top-0 z-10 py-3 header-container shadow-sm">
       <nav className="hstack justify-between">
         <Link href="/" passHref>
-          <a className="select-none text-primary-1 text-2xl md:text-3xl font-bold">
+          <a className="select-none text-primary-1 text-2xl md:text-3xl font-bold text-align: left;">
             Blog
           </a>
         </Link>
