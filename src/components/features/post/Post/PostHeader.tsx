@@ -20,7 +20,10 @@ export const PostHeader = ({ title, coverImage, date, tags }: Props) => {
           className="w-full h-full object-cover"
         />
       </div>
-      <h1 className="text-primary-1 text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
+      {/* <h1 className="text-primary-1 text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
+        {title}
+      </h1> */}
+      <h1 className="text-primary-1 text-xl sm:text-3xl md:text-4xl font-bold tracking-tighter leading-tight">
         {title}
       </h1>
       <div className="wrap gap-4">
