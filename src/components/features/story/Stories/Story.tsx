@@ -30,7 +30,7 @@ export const Story = ({ title, coverImage, date, excerpt, slug }: Props) => {
           {/* <h2 className="text-primary-1 text-xl font-medium">
           {title}
           </h2> */}
-          <h1 className="text-primary-1 text-xl sm:text-3xl md:text-4xl font-medium tracking-tighter">
+          <h1 className="text-primary-1 text-xl sm:text-3xl md:text-4xl font-medium tracking-tighter whitespace-normal">
             {title}
           </h1>
           <p className="text-neutral-700 dark:text-neutral-300 font-normal text-md line-clamp-2 md:line-clamp-3">
