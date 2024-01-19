@@ -14,7 +14,7 @@ export const Profile = () => (
     </div>
 
     <p className="text-primary-1">
-      いろいろ勉強中
+      趣味：座禅
     </p>
 
     <div className="flex gap-4">
