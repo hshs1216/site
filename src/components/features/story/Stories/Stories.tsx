@@ -23,6 +23,7 @@ export const Stories = ({ posts, icon, title }: Props) => {
               date={post.date}
               slug={post.slug}
               excerpt={post.excerpt}
+              tags={post.tags}
             />
           ))}
         </div>

@@ -2,6 +2,7 @@
   トップページの「最新の記事」で表示する、記事のアブスト表示
 */
 
+import { AiTwotoneTags } from 'react-icons/ai';
 import { Date } from '@/components/common/Date';
 import { Image } from '@/components/common/Image';
 import { Link } from '@/components/common/Link';
@@ -12,9 +13,11 @@ type Props = {
   date: string;
   excerpt: string;
   slug: string;
+  tags: string[];
 };
 
-export const Story = ({ title, coverImage, date, excerpt, slug }: Props) => {
+export const Story = ({ title, coverImage, date, excerpt, slug, tags  }: Props) => {
+  tags = Array.isArray(tags) ? tags : [];
   return (
     <Link href={`/posts/${slug}`}>
       <a className="select-none w-full h-full vstack md:flex-row cursor-pointer focus:outline-2 ">
@@ -33,7 +36,18 @@ export const Story = ({ title, coverImage, date, excerpt, slug }: Props) => {
           <p className="text-neutral-700 dark:text-neutral-300 font-normal text-md line-clamp-2 sm:line-clamp-4 md:line-clamp-3">
             {excerpt}
           </p>
+          <div className="wrap gap-2">
+            <span className="select-none text-primary-1">
+              <AiTwotoneTags />
+            </span>
+            {tags.map((tag) => (
+              <Link key={tag} href={`/tags/${tag}`} passHref>
+                <a className="badge">{tag}</a>
+              </Link>
+            ))}
+          </div>
         </div>
+          
       </a>
     </Link>
   );
