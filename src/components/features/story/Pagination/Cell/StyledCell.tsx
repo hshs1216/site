@@ -23,7 +23,7 @@ export const StyledCell: React.VFC<Props> = ({
     className={cn(
       variants[variant],
       disabled ? 'text-neutral-300 dark:text-neutral-600 ' : '',
-      active ? 'bg-teal-800 dark:bg-teal-600 text-white dark:text-white' : '',
+      active ? 'cell' : '',
       'center w-8 h-8 rounded-full text-lg text-accent-1',
     )}
   >

@@ -14,7 +14,7 @@ export const Profile = () => (
     </div>
 
     <p className="text-primary-1">
-      趣味：禅, マインドフルネス
+      奥地八橋
     </p>
 
     <div className="flex gap-4">

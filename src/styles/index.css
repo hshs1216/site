@@ -26,16 +26,25 @@
     @apply text-neutral-800 dark:text-white;
   }
   .text-accent-1 {
-    @apply text-teal-800 dark:text-teal-400;
+    @apply text-orange-600 dark:text-blue-400;
   }
-  .button {
+  /* .button {
     @apply center gap-2 py-3 px-4 rounded-lg text-base font-normal bg-teal-700 text-white;
+  } */
+  .button {
+    @apply center gap-2 py-3 px-4 rounded-lg font-normal text-white shadow-md;
+    background-image: linear-gradient(to right, #e23e15, #c58080);
+    @apply dark:bg-gradient-to-r dark:from-blue-500 dark:to-cyan-500;
   }
+
   .icon-btn {
     @apply text-primary-1 p-3;
   }
   .badge {
     @apply select-none text-xs flex items-center font-bold px-3 py-1 bg-black text-white;
+  }
+  .cell {
+    @apply bg-orange-600 dark:bg-blue-600 text-white dark:text-white;
   }
 }
 
