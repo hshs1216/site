@@ -19,6 +19,9 @@
   .bg-primary-1 {
     @apply bg-white dark:bg-neutral-800;
   }
+  .header-container {
+    @apply backdrop-blur-sm;
+  }
   .text-primary-1 {
     @apply text-neutral-800 dark:text-white;
   }

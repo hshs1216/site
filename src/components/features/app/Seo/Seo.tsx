@@ -5,14 +5,22 @@ import { joinPath } from '@/lib/joinPath';
 
 export const Seo = () => {
   const rootPath = useRootPath();
+  // ROOT_URLの値をログに出力
+  console.log('ROOT_URL:', ROOT_URL);
+
   if (typeof rootPath === 'undefined') {
     console.log('rootPath is undefined!');
   }
 
   const imageURL = joinPath(ROOT_URL, '/assets/author.png');
+
+  // imageURLの値をログに出力
+  console.log('imageURL:', imageURL);
+
   if (typeof imageURL === 'undefined') {
     console.log('imageURL is undefined!');
   }
+
 
   return (
     <>
