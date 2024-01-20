@@ -1,7 +1,8 @@
 import { Link } from '@/components/common/Link';
 import { ConditionalLink } from '@/components/common/Link/ConditionalLink';
-import { CellType } from '../types/cell';
 import { StyledCell } from './StyledCell';
+import { CellType } from '../types/cell';
+
 
 type Props = {
   cell: CellType;
