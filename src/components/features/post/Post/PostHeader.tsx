@@ -3,9 +3,9 @@
  */
 
 import { AiTwotoneTags } from 'react-icons/ai';
+import { SiGithub} from 'react-icons/si';
 import { Date } from '@/components/common/Date';
 import { Link } from '@/components/common/Link';
-import { SiGithub} from 'react-icons/si';
 
 type Props = {
   title: string;
@@ -34,7 +34,7 @@ export const PostHeader = ({ title, date, tags }: Props) => {
           </div>
         </div>
         {/* GitHubリンクとEditテキストを一つのリンクとしてまとめる */}
-        <Link href="https://github.com/hshs1216/site/_posts" passHref>
+        <Link href="https://github.com/hshs1216/site//tree/main/_posts" passHref>
           <a
             className="flex items-center gap-2 icon-btn"
             target="_blank"
