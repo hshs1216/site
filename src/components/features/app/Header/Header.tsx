@@ -11,9 +11,9 @@ export const Header = () => {
 
   return (
     <ContentLayout className="sticky top-0 z-10 py-1 header-container  header-border">
-      <nav className="hstack justify-between items-center">
+      <nav className="hstack justify-between">
         <Link href="/" passHref>
-          <a className="select-none text-primary-1 text-lg md:text-xl font-bold ">
+          <a className="select-none text-primary-1 text-xl md:text-2xl font-bold ">
             hshs&apos;s site
           </a>
         </Link>

@@ -13,10 +13,9 @@ export const Profile = () => (
       <h1 className="text-2xl font-semibold text-primary-1">hshs1216</h1>
     </div>
 
-    <p className="text-primary-1">奥地八橋</p>
-    <p className="text-primary-1">C/C++, Python, JavaScript</p>
-      
-    
+    <p className="text-primary-1">
+      奥地八橋
+    </p>
 
     <div className="flex gap-4">
       {sns.map(({ href, icon, label }) => (
