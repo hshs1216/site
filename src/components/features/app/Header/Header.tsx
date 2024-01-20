@@ -10,7 +10,7 @@ export const Header = () => {
   const { toggle } = useDarkMode();
 
   return (
-    <ContentLayout className="sticky top-0 z-10 py-3 header-container shadow-sm">
+    <ContentLayout className="sticky top-0 z-10 py-1 header-container  header-border">
       <nav className="hstack justify-between">
         <Link href="/" passHref>
           <a className="select-none text-primary-1 text-2xl md:text-3xl font-bold ">

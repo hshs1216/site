@@ -19,21 +19,29 @@
   .bg-primary-1 {
     @apply bg-white dark:bg-neutral-800;
   }
+  .bar-color {
+    @apply border-orange-500 dark:border-blue-500
+  }
   .header-container {
-    @apply backdrop-blur-sm;
+    @apply backdrop-blur;
+    background-color: rgba(255, 255, 255, 0.50); 
+    @apply dark:bg-neutral-800/50;
+  }
+  .header-border {
+    @apply border-b-2 bar-color;
   }
   .text-primary-1 {
     @apply text-neutral-800 dark:text-white;
   }
   .text-accent-1 {
-    @apply text-orange-600 dark:text-blue-400;
+    @apply text-orange-500 dark:text-blue-500;
   }
   /* .button {
-    @apply center gap-2 py-3 px-4 rounded-lg text-base font-normal bg-teal-700 text-white;
+    @apply center gap-2 py-3 px-4 rounded-lg font-normal text-white shadow-md bg-orange-500 dark:bg-blue-500;
   } */
   .button {
     @apply center gap-2 py-3 px-4 rounded-lg font-normal text-white shadow-md;
-    background-image: linear-gradient(to right, #e23e15, #c58080);
+    background-image: linear-gradient(to right, #e23e15, rgb(255, 154, 206), 164, 238));
     @apply dark:bg-gradient-to-r dark:from-blue-500 dark:to-cyan-500;
   }
 
