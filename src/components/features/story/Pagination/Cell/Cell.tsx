@@ -4,6 +4,7 @@ import { StyledCell } from './StyledCell';
 import { CellType } from '../types/cell';
 
 
+
 type Props = {
   cell: CellType;
   page: number;

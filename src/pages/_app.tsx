@@ -15,7 +15,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         className="grid gap-10 min-h-screen bg-global"
       >
         <Header />
-        <ContentLayout className="px-0 py-6 sm:p-6">
+        {/* <ContentLayout className="px-0 py-6 sm:p-6"> */}
+        <ContentLayout className="px-0 py-6 sm:p-6 mx-auto max-w-6xl w-full">
           <Component {...pageProps} />
         </ContentLayout>
         <Footer />

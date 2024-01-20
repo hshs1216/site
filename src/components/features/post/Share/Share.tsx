@@ -35,7 +35,7 @@ export const Share: React.VFC<Props> = ({ post }) => {
         share
       </div>
 
-      <div className="w-full center gap-4">
+      <div className="w-full flex justify-center gap-4 flex-wrap">
         <PinterestShareButton {...config} media={ogImage.url}>
           <PinterestIcon size={SIZE} round />
         </PinterestShareButton>
