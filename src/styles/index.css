@@ -41,7 +41,7 @@
   } */
   .button {
     @apply center gap-2 py-3 px-4 rounded-lg font-normal text-white shadow-md;
-    background-image: linear-gradient(to right, #e23e15, rgb(255, 154, 206), 164, 238));
+    background-image: linear-gradient(to right, #e23e15, rgb(255, 154, 206));
     @apply dark:bg-gradient-to-r dark:from-blue-500 dark:to-cyan-500;
   }
 
